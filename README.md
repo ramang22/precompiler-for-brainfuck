@@ -1,8 +1,8 @@
 # precompiler-for-brainfuck
 
-# Use guide
+# Use guide (only macros working need to make functions too :( )
 
-## 1
+## 1 instal brainfuck compilator
 You need to install this compiler for brainfuck,
 next you need to change compiler location in procompilator.sh file
 
@@ -16,11 +16,11 @@ brainfuck='/Users/ramang/Documents/Developer/brainfuck/brainfuck'
 https://github.com/fabianishere/brainfuck
 
 
-## 2
+## 2 insert your macros into code
 
 At start your bf code you insert #start and #end and between these two tags you can add your macros in format NAME=whattodo
 
-###example
+### example
 ```
 #start
 plus=++++++++
@@ -29,9 +29,13 @@ minut=---
 #end 
 ```
 
-## 3
+## 3 run you code
 
 Run - bash precompilator.sh yourBfFile.bf
 
+### example
+```
+bash precompilator.sh program.bf
+```
 
-# enjoy :) 
+## enjoy :) 
