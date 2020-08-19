@@ -1,6 +1,6 @@
 # precompiler-for-brainfuck
 
-# Use guide (only macros working need to make functions too :( )
+# Use guide
 
 ## 1 instal brainfuck compiler
 You need to install this compiler for brainfuck,
