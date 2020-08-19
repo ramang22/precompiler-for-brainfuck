@@ -2,13 +2,13 @@
 
 # Use guide (only macros working need to make functions too :( )
 
-## 1 instal brainfuck compilator
+## 1 instal brainfuck compiler
 You need to install this compiler for brainfuck,
 next you need to change compiler location in procompilator.sh file
 
 ```
 #location of compilator
-brainfuck='insert here executable of your complilator'
+brainfuck='insert here executable of your compiler'
 #example
 brainfuck='/Users/ramang/Documents/Developer/brainfuck/brainfuck'
 ```
@@ -25,7 +25,7 @@ At start your bf code you insert #start and #end and between these two tags you 
 #start
 plus=++++++++
 print=.
-minut=---
+minus=---
 #end 
 ```
 
